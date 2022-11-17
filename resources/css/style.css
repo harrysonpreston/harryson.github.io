@@ -2,42 +2,128 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    margin: auto;
+    line-height: 1.8;
     font-family: 'Open Sans', sans-serif;
 }
 
+h1 {
+    font-size: 38px;
+}
+
+ol,
+ul {
+    list-style-position:inside;
+}
+
+/* use code below to set red boxes around all elements*/
+/* { border: 1px solid red; } */
+
 .top-nav {
     position: fixed;
-    background-color: whitesmoke;
+    top: 0;
+    background-color: white;
     border-bottom: 1px solid lightgrey;
     width: 100%;
-    max-width: 1400px;
     margin: auto;
-    display: inline-block;
 }
 
 .top-nav ul{
-    margin: 15px 20px;
+    margin: 10px 10%;
     text-align: right;
     float: right;
 }
 
 .top-nav ul li {
-    margin: 25px 5px 25px;
+    margin: 15px 5px 15px;
     display: inline-block;
     font-size: 18px;
+    color: #123660;
+    text-align: center;
+}
+
+.hover-gray {
+    color: darkslategray;
 }
 
 .top-nav a {
-    color: black;
+    color: #123660;
     text-decoration: none;
 }
 
 .top-nav p {
-    margin: 25px;
-    float: left;
+    margin: 15px;
+    margin-left: 10%;
+    color: #123660;
     font-size: 28px;
 }
 
 .bold {
-    font-weight: 900;
+    font-weight: bold;
+}
+
+.semi-bold {
+    font-weight: 600;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+article {
+    margin: 120px auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    max-width: 800px;
+    color: #434343
+}
+
+article p {
+    margin: 15px 0;
+}
+
+article h1,h2,h3,h4 {
+    margin-top: 20px;
+    color:#123660
+}
+
+article li {
+    margin-top: 10px;
+}
+
+#saas-companies {
+    border-spacing: 25px 10px;
+    border-collapse: separate;
+    text-align: center;
+}
+
+table tbody tr td{
+    font-weight: 600;
+    color: #123660;
+}
+
+/*a:link*/
+a {
+    color: rgb(66, 157, 213);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+a:hover {
+    color: grey;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+/*
+a:visited {
+    color: plum;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  */
+
+.nobullets {
+    list-style-type: none;
 }
